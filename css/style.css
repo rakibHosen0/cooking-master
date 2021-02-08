@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(211, 178, 118);
+}
+.search-input {
+  width: 500px;
+  margin-left: 28%;
+}
+/* search-btn */
+button {
+  background-color: rgb(58, 58, 150);
+}
+.ul-right {
+  float: right;
+}
+#meals-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 1rem;
+  grid-row-gap: 2rem;
+  grid-column-gap: 3rem;
+}
+.custom-radius {
+  border-radius: 10px;
+}
+.img-custom-radius {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* not found massage */
+#notFound {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.fas {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.recipe-img {
+  height: 300px;
+  width: 100%;
+}
